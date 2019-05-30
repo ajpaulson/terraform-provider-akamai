@@ -42,7 +42,7 @@ To accommodate the numerous rule criteria and behaviors possible, the `akamai_pr
 a `criteria` or `behavior` block.
 
 ```hcl
-rules { # Default ule
+rules { # Default rule
   behavior { # Downstream Cache behavior
     name = "downstreamCache"
     option { # behavior option
